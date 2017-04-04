@@ -40,7 +40,7 @@ class myBody(QDialog):
             self.result.setText('Please write your height')
         else:
             ok = kilo * boy
-            ok *=boy
+            ok *=bo
             self.result.setText('%f' % ok)
 
 
